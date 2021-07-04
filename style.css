@@ -14,7 +14,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,4 +45,28 @@ section{
     background-position: right;
 
 }
-
+.exp{background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;}
+h2{font-size: 35px;}
+.exp-item{
+    width: 40%;
+    box-shadow: 8px 8px 35px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    transform: skew(5deg,5deg);
+    border-radius: 10px;
+    
+}
+#left-card{
+    border-left: 8px solid;
+    border-image: linear-gradient(#e89208,#f5b208,#fbeb02);
+    border-image-slice: 1;   
+}
+#right-card{
+    border-left: 8px solid;
+    border-image: linear-gradient(#92e808,#a2f508,#d6fb02);
+    border-image-slice: 1;   
+}
+footer{text-align: center;}
